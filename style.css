@@ -17,6 +17,7 @@ body {
     justify-content: flex-end;
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 
 .nav-list {
@@ -102,4 +103,45 @@ body {
 .sobre div h2 {
     font-size: 32px;
     margin-bottom: 14px;
+}
+
+.projetos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+.projetos h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.projetos p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.lista-projetos {
+    width: 100%;
+    margin-bottom: 8px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-projetos img {
+    width: 22%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    opacity: 0.7;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.lista-projetos img:hover {
+    opacity: 1;
 }
