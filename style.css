@@ -76,3 +76,28 @@ body {
 .call-to-action:hover {
     transform: scale(1.1);
 }
+
+.sobre {
+    background-color: #fff;
+    width: 100%;
+    padding: 80px 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+
+.sobre img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.sobre div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
